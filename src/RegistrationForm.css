@@ -1,0 +1,44 @@
+.form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.field {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.field input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.button {
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: darkblue;
+}
